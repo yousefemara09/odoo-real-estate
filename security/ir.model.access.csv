@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_property_user,property.user,model_property,,1,1,1,1
+access_owner_user,owner.user,model_owner,,1,1,1,1
+access_tag_user,tag.user,model_tag,,1,1,1,1
+access_property_line_user,property.line.user,model_property_line,,1,1,1,1
+access_property_history,property.history.user,model_property_history,,1,1,1,1
+access_change_state,change.state.user,model_change_state,,1,1,1,1
+access_property_history_line,property_history_line.user,model_property_history_line,,1,1,1,1
+access_property_history_tag,property.history.tag,model_property_history_tag,,1,1,1,1

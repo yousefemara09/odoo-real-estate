@@ -3,11 +3,12 @@
         <field name="name">property history tree</field>
         <field name="model">property.history</field>
         <field name="arch" type="xml">
-            <tree>
+            <tree  create="0" edit="0" delete="0">
                 <field name="user_id"/>
                 <field name="property_id"/>
                 <field name="old_state"/>
                 <field name="new_state"/>
+                <field name="reason"/>
             </tree>
         </field>
     </record>
@@ -16,9 +17,8 @@
 <record id="property_history_view_form" model="ir.ui.view">
     <field name="name">property history form</field>
     <field name="model">property.history</field>
-
     <field name="arch" type="xml">
-        <form>
+        <form create="0" edit="0" delete="0">
             <sheet>
                 <group col="2">
                     <group>
@@ -29,8 +29,27 @@
                     <group>
                         <field name="old_state"/>
                         <field name="new_state"/>
+                        <field name="reason"/>
                     </group>
                 </group>
+                   <notebook>
+                    <page string="bedrooms">
+                        <field name="line_ids">
+                            <tree>
+                                <field name="description"/>
+                                <field name="area"/>
+                            </tree>
+                        </field>
+                    </page>
+                       <page string="Tags History">
+                           <field name="tag_history_ids">
+                               <tree>
+                                    <field name="tag_id"/>
+                                    <field name="name"/>
+                            </tree>
+                        </field>
+                    </page>
+                </notebook>
             </sheet>
         </form>
     </field>
@@ -51,5 +70,6 @@
         name="History"
         parent="app_one.properties_menu"
         action="property_history_action"
+        groups="app_one.property_manager_group"
     />
 </odoo>

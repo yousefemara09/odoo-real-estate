@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Ole';
+    src: url('/app_one/static/src/fonts/Ole-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.ole-font {
+    font-family: 'Ole', sans-serif !important;
+}

@@ -7,3 +7,4 @@ class Owner(models.Model):
 
     property_ids = fields.One2many('property','owner_id')
 
+

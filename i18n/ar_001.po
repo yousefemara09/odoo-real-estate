@@ -1,0 +1,627 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* app_one
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-06 13:52+0000\n"
+"PO-Revision-Date: 2026-06-06 13:52+0000\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_form
+msgid "Action"
+msgstr "إجراء"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__message_needaction
+msgid "Action Needed"
+msgstr "إجراء مطلوب"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__activity_ids
+msgid "Activities"
+msgstr "الأنشطة"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "زخرفة استثناء النشاط"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__activity_state
+msgid "Activity State"
+msgstr "حالة النشاط"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "أيقونة نوع النشاط"
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_form
+msgid "Additional Data"
+msgstr "بيانات إضافية"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_owner__address
+#: model:ir.model.fields,field_description:app_one.field_property__owner_address
+msgid "Address"
+msgstr "العنوان"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property_history_line__area
+#: model:ir.model.fields,field_description:app_one.field_property_line__area
+msgid "Area"
+msgstr "المساحة"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__bedrooms
+msgid "Bedrooms"
+msgstr "غرف النوم"
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.change_wizard_state_view_form
+msgid "Cancel"
+msgstr "إلغاء"
+
+#. module: app_one
+#: model:ir.actions.act_window,name:app_one.change_wizard_state_action
+#: model:ir.actions.server,name:app_one.property_change_state_server_action
+#: model:ir.model,name:app_one.model_change_state
+msgid "Change State"
+msgstr "تغيير الحالة"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__check_selling_date
+msgid "Check Selling Date"
+msgstr "التحقق من تاريخ البيع"
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__property__state__closed
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_form
+msgid "Closed"
+msgstr "مغلق"
+
+#. module: app_one
+#: model:ir.actions.server,name:app_one.property_closed_server_action
+msgid "Closed Action"
+msgstr "إجراء الإغلاق"
+
+#. module: app_one
+#: model:ir.ui.menu,name:app_one.configuration_menu
+msgid "Configuration"
+msgstr "الإعدادات"
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.change_wizard_state_view_form
+msgid "Confirm"
+msgstr "تأكيد"
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__property__state__confirmed
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_form
+msgid "Confirmed"
+msgstr "مؤكد"
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_res_partner
+msgid "Contact"
+msgstr "جهة الاتصال"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_change_state__create_uid
+#: model:ir.model.fields,field_description:app_one.field_owner__create_uid
+#: model:ir.model.fields,field_description:app_one.field_property__create_uid
+#: model:ir.model.fields,field_description:app_one.field_property_history__create_uid
+#: model:ir.model.fields,field_description:app_one.field_property_history_line__create_uid
+#: model:ir.model.fields,field_description:app_one.field_property_history_tag__create_uid
+#: model:ir.model.fields,field_description:app_one.field_property_line__create_uid
+#: model:ir.model.fields,field_description:app_one.field_tag__create_uid
+msgid "Created by"
+msgstr "أنشئ بواسطة"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_change_state__create_date
+#: model:ir.model.fields,field_description:app_one.field_owner__create_date
+#: model:ir.model.fields,field_description:app_one.field_property__create_date
+#: model:ir.model.fields,field_description:app_one.field_property_history__create_date
+#: model:ir.model.fields,field_description:app_one.field_property_history_line__create_date
+#: model:ir.model.fields,field_description:app_one.field_property_history_tag__create_date
+#: model:ir.model.fields,field_description:app_one.field_property_line__create_date
+#: model:ir.model.fields,field_description:app_one.field_tag__create_date
+msgid "Created on"
+msgstr "تاريخ الإنشاء"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__date_availability
+msgid "Date Availability"
+msgstr "تاريخ الإتاحة"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__description
+#: model:ir.model.fields,field_description:app_one.field_property_history_line__description
+#: model:ir.model.fields,field_description:app_one.field_property_line__description
+msgid "Description"
+msgstr "الوصف"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__diff
+msgid "Diff"
+msgstr "الفرق"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_change_state__display_name
+#: model:ir.model.fields,field_description:app_one.field_owner__display_name
+#: model:ir.model.fields,field_description:app_one.field_property__display_name
+#: model:ir.model.fields,field_description:app_one.field_property_history__display_name
+#: model:ir.model.fields,field_description:app_one.field_property_history_line__display_name
+#: model:ir.model.fields,field_description:app_one.field_property_history_tag__display_name
+#: model:ir.model.fields,field_description:app_one.field_property_line__display_name
+#: model:ir.model.fields,field_description:app_one.field_tag__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__change_state__state__draft
+#: model:ir.model.fields.selection,name:app_one.selection__property__state__draft
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_form
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__property__garden_orientation__east
+msgid "East"
+msgstr "شرق"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__expected_price
+msgid "Expected Price"
+msgstr "السعر المتوقع"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__facades
+msgid "Facades"
+msgstr "الواجهات"
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_form
+msgid "First Data"
+msgstr "البيانات الأساسية"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__message_follower_ids
+msgid "Followers"
+msgstr "المتابعون"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "المتابعون (الشركاء)"
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_property__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "أيقونة Font Awesome مثل fa-tasks"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__garage
+msgid "Garage"
+msgstr "جراج"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__garden
+msgid "Garden"
+msgstr "حديقة"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__garden_area
+msgid "Garden Area"
+msgstr "مساحة الحديقة"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__garden_orientation
+msgid "Garden Orientation"
+msgstr "اتجاه الحديقة"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__has_message
+msgid "Has Message"
+msgstr "يحتوي على رسالة"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property_history_line__history_id
+#: model:ir.model.fields,field_description:app_one.field_property_history_tag__history_id
+#: model:ir.model.fields,field_description:app_one.field_tag__history_ids
+#: model:ir.ui.menu,name:app_one.properties_history_menu_action
+msgid "History"
+msgstr "السجل"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_change_state__id
+#: model:ir.model.fields,field_description:app_one.field_owner__id
+#: model:ir.model.fields,field_description:app_one.field_property__id
+#: model:ir.model.fields,field_description:app_one.field_property_history__id
+#: model:ir.model.fields,field_description:app_one.field_property_history_line__id
+#: model:ir.model.fields,field_description:app_one.field_property_history_tag__id
+#: model:ir.model.fields,field_description:app_one.field_property_line__id
+#: model:ir.model.fields,field_description:app_one.field_tag__id
+msgid "ID"
+msgstr "المعرف"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__activity_exception_icon
+msgid "Icon"
+msgstr "الأيقونة"
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_property__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "أيقونة للإشارة إلى نشاط استثنائي."
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_property__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "إذا كان محدداً، فإن الرسائل الجديدة تستلزم انتباهك."
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_property__message_has_error
+#: model:ir.model.fields,help:app_one.field_property__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "إذا كان محدداً، فإن بعض الرسائل تحتوي على خطأ في التسليم."
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__is_date
+msgid "Is Date"
+msgstr "هو تاريخ"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__message_is_follower
+msgid "Is Follower"
+msgstr "متابع"
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_search
+msgid "Large Properties"
+msgstr "العقارات الكبيرة"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_change_state__write_uid
+#: model:ir.model.fields,field_description:app_one.field_owner__write_uid
+#: model:ir.model.fields,field_description:app_one.field_property__write_uid
+#: model:ir.model.fields,field_description:app_one.field_property_history__write_uid
+#: model:ir.model.fields,field_description:app_one.field_property_history_line__write_uid
+#: model:ir.model.fields,field_description:app_one.field_property_history_tag__write_uid
+#: model:ir.model.fields,field_description:app_one.field_property_line__write_uid
+#: model:ir.model.fields,field_description:app_one.field_tag__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_change_state__write_date
+#: model:ir.model.fields,field_description:app_one.field_owner__write_date
+#: model:ir.model.fields,field_description:app_one.field_property__write_date
+#: model:ir.model.fields,field_description:app_one.field_property_history__write_date
+#: model:ir.model.fields,field_description:app_one.field_property_history_line__write_date
+#: model:ir.model.fields,field_description:app_one.field_property_history_tag__write_date
+#: model:ir.model.fields,field_description:app_one.field_property_line__write_date
+#: model:ir.model.fields,field_description:app_one.field_tag__write_date
+msgid "Last Updated on"
+msgstr "تاريخ آخر تحديث"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property_history__line_ids
+msgid "Line"
+msgstr "السطر"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في تسليم الرسالة"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__message_ids
+msgid "Messages"
+msgstr "الرسائل"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "الموعد النهائي لنشاطي"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_owner__name
+#: model:ir.model.fields,field_description:app_one.field_property__name
+#: model:ir.model.fields,field_description:app_one.field_property_history_tag__name
+#: model:ir.model.fields,field_description:app_one.field_tag__name
+msgid "Name"
+msgstr "الاسم"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property_history__new_state
+msgid "New State"
+msgstr "الحالة الجديدة"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "الموعد النهائي للنشاط القادم"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__activity_summary
+msgid "Next Activity Summary"
+msgstr "ملخص النشاط القادم"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع النشاط القادم"
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__property__garden_orientation__north
+msgid "North"
+msgstr "شمال"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__message_needaction_counter
+msgid "Number of Actions"
+msgstr "عدد الإجراءات"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__message_has_error_counter
+msgid "Number of errors"
+msgstr "عدد الأخطاء"
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_property__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "عدد الرسائل التي تستلزم إجراءً"
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_property__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "عدد الرسائل التي تحتوي على خطأ في التسليم"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property_history__old_state
+msgid "Old State"
+msgstr "الحالة السابقة"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__owner_id
+#: model:ir.ui.menu,name:app_one.owner_ment_item
+msgid "Owner"
+msgstr "المالك"
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.report_property_template
+msgid "Owner:"
+msgstr "المالك:"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_owner__phone
+#: model:ir.model.fields,field_description:app_one.field_property__owner_phone
+msgid "Phone"
+msgstr "الهاتف"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__postcode
+msgid "Postcode"
+msgstr "الرمز البريدي"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_res_partner__price
+#: model:ir.model.fields,field_description:app_one.field_res_users__price
+msgid "Price"
+msgstr "السعر"
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.report_property_template
+msgid "Price:"
+msgstr "السعر:"
+
+#. module: app_one
+#: model:ir.ui.menu,name:app_one.properties_menu
+#: model:ir.ui.menu,name:app_one.properties_menu_action
+msgid "Properties"
+msgstr "العقارات"
+
+#. module: app_one
+#: model:ir.actions.act_window,name:app_one.property_action
+#: model:ir.model,name:app_one.model_property
+#: model:ir.model.fields,field_description:app_one.field_change_state__property_id
+#: model:ir.model.fields,field_description:app_one.field_owner__property_ids
+#: model:ir.model.fields,field_description:app_one.field_property__line_ids
+#: model:ir.model.fields,field_description:app_one.field_property_history__property_id
+#: model:ir.model.fields,field_description:app_one.field_property_line__property_id
+#: model:ir.model.fields,field_description:app_one.field_res_partner__property_id
+#: model:ir.model.fields,field_description:app_one.field_res_users__property_id
+#: model:ir.model.fields,field_description:app_one.field_sale_order__property_id
+#: model:ir.model.fields,field_description:app_one.field_tag__property_ids
+msgid "Property"
+msgstr "العقار"
+
+#. module: app_one
+#: model:ir.actions.act_window,name:app_one.property_history_action
+#: model:ir.model,name:app_one.model_property_history
+msgid "Property History"
+msgstr "سجل العقار"
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_property_history_line
+msgid "Property History Line"
+msgstr "سطر سجل العقار"
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_property_line
+msgid "Property Line"
+msgstr "سطر العقار"
+
+#. module: app_one
+#: model:ir.actions.report,name:app_one.property_report
+msgid "Property Report"
+msgstr "تقرير العقار"
+
+#. module: app_one
+#: model:ir.actions.server,name:app_one.property_check_expected_selling_ir_actions_server
+msgid "Property: Check selling date"
+msgstr "العقار: التحقق من تاريخ البيع"
+
+#. module: app_one
+#: model:ir.ui.menu,name:app_one.real_estate_root_menu
+msgid "Real Estate"
+msgstr "العقارات"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_change_state__reason
+#: model:ir.model.fields,field_description:app_one.field_property_history__reason
+msgid "Reason"
+msgstr "السبب"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__ref
+msgid "Ref"
+msgstr "المرجع"
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__change_state__state__rejected
+#: model:ir.model.fields.selection,name:app_one.selection__property__state__rejected
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_form
+msgid "Rejected"
+msgstr "مرفوض"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__activity_user_id
+msgid "Responsible User"
+msgstr "المستخدم المسؤول"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطأ في تسليم الرسالة النصية"
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_sale_order
+msgid "Sales Order"
+msgstr "أمر البيع"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__selling_price
+msgid "Selling Price"
+msgstr "سعر البيع"
+
+#. module: app_one
+#: model:ir.model.constraint,message:app_one.constraint_property_unique_name
+msgid "Should be unique name"
+msgstr "يجب أن يكون الاسم فريداً"
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__property__garden_orientation__south
+msgid "South"
+msgstr "جنوب"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_change_state__state
+#: model:ir.model.fields,field_description:app_one.field_property__state
+msgid "State"
+msgstr "الحالة"
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_property__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"الحالة بناءً على الأنشطة\n"
+"متأخر: تجاوز الموعد النهائي\n"
+"اليوم: موعد النشاط هو اليوم\n"
+"مجدول: أنشطة مستقبلية."
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__tag_ids
+#: model:ir.model.fields,field_description:app_one.field_property_history_tag__tag_id
+msgid "Tag"
+msgstr "التاج"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property_history__tag_history_ids
+msgid "Tag History"
+msgstr "سجل التاجات"
+
+#. module: app_one
+#: model:ir.ui.menu,name:app_one.tag_ment_item
+msgid "Tags"
+msgstr "التاجات"
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.property_history_view_form
+msgid "Tags History"
+msgstr "سجل التاجات"
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_property__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع نشاط الاستثناء على السجل."
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property_history__user_id
+msgid "User"
+msgstr "المستخدم"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__website_message_ids
+msgid "Website Messages"
+msgstr "رسائل الموقع الإلكتروني"
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_property__website_message_ids
+msgid "Website communication history"
+msgstr "سجل التواصل عبر الموقع الإلكتروني"
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__property__garden_orientation__west
+msgid "West"
+msgstr "غرب"
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.property_history_view_form
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_form
+msgid "bedrooms"
+msgstr "غرف النوم"
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_search
+msgid "bedrooms Orientation"
+msgstr "اتجاه غرف النوم"
+
+#. module: app_one
+#: model:ir.actions.act_window,name:app_one.owner_action
+#: model:ir.model,name:app_one.model_owner
+msgid "owner"
+msgstr "المالك"
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_property_history_tag
+msgid "property.history.tag"
+msgstr "سجل تاج العقار"
+
+#. module: app_one
+#: model:ir.actions.act_window,name:app_one.tag_action
+#: model:ir.model,name:app_one.model_tag
+msgid "tag"
+msgstr "التاج"

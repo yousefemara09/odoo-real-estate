@@ -1,0 +1,10 @@
+<odoo>
+    <data>
+        <record id="property_id" model="property">
+            <field name="name">Property demo1</field>
+            <field name="postcode">P0001</field>
+            <field name="expected_price">56000</field>
+            <field name="bedrooms">6</field>
+        </record>
+    </data>
+</odoo>

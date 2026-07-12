@@ -1,0 +1,9 @@
+.header_tb th{
+    background-color: #875A7B !important;
+    color: white !important;
+    text-align: center !important;
+}
+
+.header_tb th:nth-child(2){
+    width: 250px !important;
+}

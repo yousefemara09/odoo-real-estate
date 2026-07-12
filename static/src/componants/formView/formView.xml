@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+    <t t-name="app_one.formView">
+        <div class="container mt-3 mb-3">
+            <div class="card shadow-sm border-0">
+                <div class="card-header bg-primary text-white py-2 d-flex align-items-center gap-2">
+                    <i class="fa fa-home"/>
+                    <h6 class="mb-0">Property Form</h6>
+                </div>
+                <div class="card-body p-3">
+                    <div class="row g-2">
+                        <div class="col-md-6">
+                            <label class="form-label small fw-semibold text-muted">Name</label>
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-text"><i class="fa fa-tag"/></span>
+                                <input class="form-control form-control-sm"
+                                       t-model="state.name"
+                                       placeholder="Enter Name ...!" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small fw-semibold text-muted">Postcode</label>
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-text"><i class="fa fa-map-marker"/></span>
+                                <input class="form-control form-control-sm"
+                                       t-model="state.postcode"
+                                       placeholder="Enter Postcode ...!" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small fw-semibold text-muted">Expected Price</label>
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-text"><i class="fa fa-dollar"/></span>
+                                <input type="number"
+                                       class="form-control form-control-sm"
+                                       t-model="state.expected_price"
+                                       placeholder="Enter Expected Price ...!" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer py-2 bg-light d-flex gap-2 justify-content-end">
+                    <button class="btn btn-primary btn-sm px-3" t-on-click="createRecords">
+                        <i class="fa fa-save me-1"/> Save
+                    </button>
+                    <button class="btn btn-secondary btn-sm px-3" t-on-click="cancel">
+                        <i class="fa fa-times me-1"/> Cancel
+                    </button>
+                </div>
+            </div>
+        </div>
+    </t>
+</templates>

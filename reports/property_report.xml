@@ -1,0 +1,32 @@
+<odoo>
+    <record id="property_report" model="ir.actions.report">
+        <field name="name">Property Report</field>
+        <field name="model">property</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="binding_model_id" ref="model_property"/>
+        <field name="binding_type">report</field>
+        <field name="report_name">app_one.report_property_template</field>
+    </record>
+
+    <template id="report_property_template">
+    <t t-call="web.html_container">
+        <t t-foreach="docs" t-as="o">
+            <t t-call="web.external_layout">
+                <div class="page">
+                    <h2 style="font-family: 'Ole';">
+                        <span t-field="o.name"/>
+                    </h2>
+                    <p>
+                        Owner:
+                        <span t-field="o.owner_id"/>
+                    </p>
+                    <p>
+                        Price:
+                        <span t-field="o.expected_price"/>
+                    </p>
+                </div>
+            </t>
+        </t>
+    </t>
+</template>
+</odoo>
