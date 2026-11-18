@@ -11,7 +11,7 @@ An Odoo 17 module for managing properties and owners, with a state workflow and 
 - **Validation:** SQL `UNIQUE` constraint on the property name, and Python constraints on expected price and bedrooms.
 - **Integration:** extends `sale.order`, `account.move`, and `res.partner` (depends on `sale_management` and `account`).
 - **OWL components:** custom list view and form view.
-- **Reports:** QWeb PDF (custom Arabic font) and an Excel (XLSX) report.
+- **Reports:** QWeb PDF (with a custom font) and an Excel (XLSX) report.
 - **REST API:** `POST /v1/property` (create) and `GET /v1/property/<id>` (read).
 - **i18n:** Arabic translation (`ar_001.po`).
 - **Unit tests** (`TransactionCase`).
